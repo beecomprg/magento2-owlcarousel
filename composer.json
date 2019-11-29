@@ -1,0 +1,28 @@
+{
+  "name": "beecomprg/magento2-owlcarousel",
+  "description": "Magento 2 OwlCarousel",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "authors": [
+    {
+      "name": "Lukas",
+      "email": "Lukas@beecom.io",
+      "homepage": "https://www.beecom.io"
+    }
+  ],
+  "require": {
+    "beecom/module-core": "*"
+  },
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Beecom\\OwlCarousel\\": ""
+    }
+  }
+}
