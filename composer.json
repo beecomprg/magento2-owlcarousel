@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "beecom/module-core": "*"
+    "beecomprg/module-core": "*"
   },
   "autoload": {
     "files": [
